@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# prévias locais (não publicar)
+manoel-ink/opcoes.html
+manoel-ink/img/v/

@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Juan Manoel · Tatuagem em Maceió | Manoel.ink</title>
+  <meta name="description" content="Juan Manoel, tatuador premiado em Maceió. Blackwork, fine line e tatuagens geek em studio privado em Petrópolis, com hora marcada. Peça seu orçamento.">
+  <meta name="theme-color" content="#121212">
+  <link rel="canonical" href="https://manoelink.github.io/">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <!-- prévia ao compartilhar o link (WhatsApp, Instagram, Facebook) -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="Manoel.ink">
+  <meta property="og:url" content="https://manoelink.github.io/">
+  <meta property="og:title" content="Juan Manoel — Tatuagem em Maceió">
+  <meta property="og:description" content="Blackwork, fine line e tatuagens geek. Studio privado em Petrópolis, Maceió. Peça seu orçamento.">
+  <meta property="og:image" content="https://manoelink.github.io/img/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Juan Manoel tatuando, ao lado do nome dele e do botão Pedir orçamento">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://manoelink.github.io/img/og.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+  <link rel="stylesheet" href="style.css?v=20261029f">
+</head>
+<body>
+  <div class="bg-base" id="bgBase" aria-hidden="true"></div>
+  <div class="bg-wipe" id="bgWipe" aria-hidden="true"></div>
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- PRELOADER -->
+  <div class="loader" id="loader" aria-hidden="true">
+    <div class="loader-word"><span class="loader-fill" id="loaderFill">MANOEL.INK</span>MANOEL.INK</div>
+    <div class="loader-count"><span id="loaderNum">0</span>%</div>
+  </div>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor" aria-hidden="true"><span id="cursorLabel"></span></div>
+  <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+
+  <!-- NAV -->
+  <header class="nav" id="top">
+    <a href="#top" class="logo">MANOEL<span>.</span>INK</a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#trabalhos">Trabalhos</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#agendar">Como agendar</a>
+    </nav>
+    <div class="nav-actions">
+      <a href="#flashes" class="btn nav-flash" data-magnetic><span class="dot" aria-hidden="true"></span>Flashes</a>
+      <a href="#agendar" class="btn btn-red btn-cta nav-cta" data-magnetic><span class="lbl-lg">Pedir orçamento</span><span class="lbl-sm">Orçamento</span></a>
+    </div>
+    <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <!-- HERO -->
+  <section class="xhero" id="xhero" data-theme="ink">
+    <div class="xhero-top">
+      <p class="eyebrow">Maceió · AL — Studio privado</p>
+      <p class="eyebrow xhero-open"><span class="dot" aria-hidden="true"></span>Agenda aberta</p>
+    </div>
+    <h1 class="xhero-name" aria-label="Juan Manoel">
+      <span class="xl xl-1" id="heroL1" aria-hidden="true">JUAN</span>
+      <span class="xl xl-2" id="heroL2" aria-hidden="true">MANOEL</span>
+    </h1>
+    <div class="xhero-face" id="heroFace">
+      <svg class="xhero-arc" viewBox="0 0 600 600" aria-hidden="true"><circle cx="300" cy="300" r="296" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="1100 760"/></svg>
+      <img src="img/manoel.jpg" alt="Juan Manoel, tatuador">
+      <svg class="badge-spin" viewBox="0 0 200 200" data-depth="0.08"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#circ">BLACKWORK · FINE LINE · GEEK · AGENDA ABERTA · </textPath></text><circle cx="100" cy="100" r="10"/></svg>
+    </div>
+    <div class="xhero-bottom">
+      <div class="xhero-copy">
+        <p class="hero-sub">Blackwork, fine line e tatuagens geek.<br>Do anime ao traço delicado, cada peça desenhada pra quem vai usar.</p>
+        <p class="award"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg> Artista premiado 4×</p>
+      </div>
+      <div class="xhero-cta">
+        <div class="hero-ctas">
+          <a href="#agendar" class="btn btn-red btn-cta btn-hero" data-magnetic>Pedir orçamento <span class="arr" aria-hidden="true">→</span></a>
+          <a href="#flashes" class="btn btn-outline" data-magnetic>Ver flashes disponíveis</a>
+        </div>
+        <p class="cta-note"><span class="live" aria-hidden="true"></span>Leva 1 minuto · resposta pelo <span class="only-wa">WhatsApp</span><span class="only-ig">direct</span></p>
+      </div>
+    </div>
+    <a href="#destaques" class="xhero-scroll" aria-label="Rolar pros destaques">Rola <span aria-hidden="true">↓</span></a>
+  </section>
+
+  <!-- MARQUEE -->
+  <div class="marquee" aria-label="Estilos: Geek & anime, Blackwork, Fine line">
+    <div class="marquee-track">
+      <span>GEEK &amp; ANIME</span><i>/</i><span>BLACKWORK</span><i>/</i><span>FINE LINE</span><i>/</i>
+      <span>GEEK &amp; ANIME</span><i>/</i><span>BLACKWORK</span><i>/</i><span>FINE LINE</span><i>/</i>
+      <span>GEEK &amp; ANIME</span><i>/</i><span>BLACKWORK</span><i>/</i><span>FINE LINE</span><i>/</i>
+      <span>GEEK &amp; ANIME</span><i>/</i><span>BLACKWORK</span><i>/</i><span>FINE LINE</span><i>/</i>
+    </div>
+  </div>
+
+  <!-- NÚMEROS -->
+  <section class="stats" aria-label="Números">
+    <div class="stat reveal"><b data-count="4">0</b><span>× premiado</span></div>
+    <div class="stat reveal"><b data-count="60" data-suffix="+">0</b><span>tattoos no feed</span></div>
+    <div class="stat reveal"><b data-count="5" data-suffix="k">0</b><span>seguidores</span></div>
+    <div class="stat reveal"><b data-count="1">0</b><span>studio privado em Maceió</span></div>
+  </section>
+
+  <!-- DESTAQUES -->
+  <section class="showcase" id="destaques" data-theme="ink" aria-label="Destaques do portfólio">
+    <div class="sc-sticky">
+      <div class="sc-slot" id="scSlot" aria-hidden="true"></div>
+      <div class="sc-stack" id="scStack"></div>
+      <div class="sc-side" id="scSide">
+        <p class="kicker">Destaques</p>
+        <h2 class="title">TRABALHOS</h2>
+        <p class="sc-count" id="scCount">01 / 07</p>
+        <p class="sc-name" id="scName"></p>
+        <p class="sc-place" id="scPlace"></p>
+        <div class="sc-links">
+          <a href="#trabalhos" class="btn btn-outline">Ver todos ↓</a>
+          <a href="#" class="sc-ig" id="scIg" target="_blank" rel="noopener">Ver no Instagram ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RASPA AÍ -->
+  <section class="section scratch" id="raspa" data-theme="red">
+    <div class="scratch-text">
+      <p class="kicker reveal">Raspa aí</p>
+      <h2 class="title reveal">DESCOBRE<br>A TATTOO</h2>
+      <p class="lead" data-blur>Passa o dedo (ou o mouse) na pele e vê o que tem embaixo.</p>
+      <p class="scratch-cap" id="scratchCap" aria-live="polite"></p>
+      <div class="scratch-actions">
+        <button class="btn btn-outline" id="scratchNext" type="button">Raspar outra</button>
+        <a href="#agendar" class="btn btn-red" data-magnetic>Quero uma assim</a>
+      </div>
+    </div>
+    <div class="scratch-card" id="scratchCard" data-cursor="Raspa">
+      <img id="scratchImg" alt="" draggable="false">
+      <canvas id="scratchCanvas" aria-label="Pele pra raspar e descobrir a tatuagem"></canvas>
+    </div>
+  </section>
+
+  <!-- TRABALHOS -->
+  <section class="section" id="trabalhos" data-theme="paper">
+    <div class="section-head">
+      <div>
+        <p class="kicker reveal"><i>01</i> Portfólio</p>
+        <h2 class="title reveal">TODOS OS<br>TRABALHOS</h2>
+      </div>
+      <div class="filters reveal" role="tablist" id="filters">
+        <button class="chip active" data-filter="all">Todos</button>
+        <button class="chip" data-filter="geek">Geek &amp; anime</button>
+        <button class="chip" data-filter="blackwork">Blackwork</button>
+        <button class="chip" data-filter="fineline">Fine line &amp; delicadas</button>
+      </div>
+    </div>
+    <div class="works" id="works"></div>
+    <p class="mono-note" id="worksCount"></p>
+  </section>
+
+  <!-- CICATRIZADAS -->
+  <section class="healed-wrap" data-theme="ink">
+    <div class="healed-head">
+      <div>
+        <p class="kicker reveal"><i>02</i> Cicatrizadas</p>
+        <h2 class="title title-sm reveal">MESES DEPOIS,<br>CONTINUA BONITA</h2>
+      </div>
+      <p class="healed-sub" data-blur>Tatuagem boa é a que segue firme depois de cicatrizar. Fotos reais, várias enviadas pelos próprios clientes.</p>
+    </div>
+    <div class="healed-strip" id="healedStrip" data-cursor="Arraste" tabindex="0" aria-label="Fotos de tatuagens cicatrizadas"></div>
+    <div class="healed-progress" aria-hidden="true"><span id="healedBar"></span></div>
+  </section>
+
+  <!-- FLASHES -->
+  <section class="flashes-wrap hpin" id="flashes" data-theme="red">
+    <div class="fx-pin">
+      <h2 class="title fx-bigtitle" aria-hidden="true">FLASHES</h2>
+      <div class="fx-head">
+        <p class="kicker"><i>03</i> Disponíveis</p>
+        <h2 class="fx-title">Flashes</h2>
+        <p class="lead">Desenhos prontos, tatuados uma vez só. Escolheu, reservou, é seu.</p>
+      </div>
+      <div class="flashes" id="flashGrid"></div>
+      <div class="fx-progress" aria-hidden="true"><span id="fxBar"></span></div>
+    </div>
+  </section>
+
+  <!-- MANIFESTO -->
+  <section class="manifesto" id="manifesto" data-theme="ink" aria-label="Manifesto">
+    <div class="mf-pin">
+      <p class="mf-text" id="mfText">Se marcou tua infância, dá pra <em>marcar tua pele.</em></p>
+      <p class="mf-sign">— Juan Manoel</p>
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section class="section about" id="sobre" data-theme="paper">
+    <div class="about-photo reveal">
+      <img class="about-img" src="img/manoel-sobre.jpg" alt="Juan Manoel de costas, tatuando o braço de um cliente no studio" loading="lazy">
+    </div>
+    <div class="about-text">
+      <p class="kicker reveal"><i>04</i> Sobre</p>
+      <h2 class="title reveal">QUEM TATUA</h2>
+      <blockquote class="about-quote reveal">“Se marcou tua infância, <em>dá pra marcar tua pele.</em>”</blockquote>
+      <p class="lead" data-blur>Sou o Manoel, tatuador aqui em Maceió. Meu trampo vai do blackwork pesado ao fine line mais delicado, e muitos projetos geek. Tudo desenhado do zero, do meu jeito, exclusivamente pra você.</p>
+      <p class="lead lead-2" data-blur>Antes de pegar na máquina, a gente troca ideia: tu me conta a história, eu monto o desenho e a gente ajusta junto até ficar do teu jeito. Atendo no meu studio em Petrópolis, com hora marcada. Curtiu o trampo? <a href="#agendar" class="about-cta">Bora desenrolar a tua →</a></p>
+      <ul class="awards reveal">
+        <li><span>Estilos</span><em>Geek &amp; anime · Blackwork · Fine line</em></li>
+        <li><span>Onde</span><em>Petrópolis · Maceió/AL</em></li>
+        <li><span>Atendimento</span><em>Studio privado, com hora marcada</em></li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- COMO AGENDAR -->
+  <section class="booking" id="agendar" data-theme="ink">
+    <div class="booking-inner">
+      <div class="steps">
+        <p class="kicker"><i>05</i> Como agendar</p>
+        <h2 class="title light">DA IDEIA<br>À SESSÃO</h2>
+        <ol>
+          <li><b>1</b><div><h3>Mande a ideia</h3><p>Referência, local do corpo e tamanho aproximado.</p></div></li>
+          <li><b>2</b><div><h3>Receba o orçamento</h3><p>Valor e tempo estimado de sessão.</p></div></li>
+          <li><b>3</b><div><h3>Garanta a data</h3><p>Faça o orçamento da sua tattoo para mais detalhes.</p></div></li>
+          <li><b>4</b><div><h3>Dia da sessão</h3><p>No studio em Petrópolis, Maceió. Atendimento só com hora marcada.</p></div></li>
+        </ol>
+      </div>
+
+      <div class="quote-ring"><form class="quote" id="quoteForm">
+        <p class="mono-label">Monte seu pedido de orçamento</p>
+        <label>Sua ideia
+          <textarea id="fIdea" rows="3" placeholder="Ex.: dragão do Shenlong subindo pelo antebraço, só preto"></textarea>
+        </label>
+        <div class="row">
+          <label>Local do corpo
+            <select id="fPlace">
+              <option>Antebraço</option><option>Braço</option><option>Mão</option><option>Ombro</option>
+              <option>Costas</option><option>Peito</option><option>Costela</option><option>Perna</option>
+              <option>Panturrilha</option><option>Pé</option><option>Pescoço</option><option>Outro</option>
+            </select>
+          </label>
+          <label>Tamanho
+            <select id="fSize">
+              <option>Pequena (até 8 cm)</option>
+              <option selected>Média (8–15 cm)</option>
+              <option>Grande (15–25 cm)</option>
+              <option>Fechamento / sessão longa</option>
+            </select>
+          </label>
+        </div>
+        <p class="field-label">Mensagem que vai pra ele</p>
+        <pre class="preview" id="msgPreview"></pre>
+        <label class="upload" id="uploadBox">
+          <input type="file" id="fFile" accept="image/*">
+          <span id="uploadText"><b>UPLOAD</b> · foto de referência (opcional)</span>
+        </label>
+        <a class="btn btn-red btn-block" id="waBtn" href="#" target="_blank" rel="noopener">
+          <svg class="ico-ig" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg>
+          <svg class="ico-wa" viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>
+          <span class="only-wa">Enviar no WhatsApp</span><span class="only-ig">Enviar no direct</span>
+        </a>
+        <p class="alt only-wa" id="waNote">A mensagem é <b>copiada automaticamente</b>: quando abrir o WhatsApp, é só <b>colar e enviar</b>. Prefere o Instagram? <a href="https://ig.me/m/manoel.ink" target="_blank" rel="noopener">Chama no direct</a></p>
+        <p class="alt only-ig">A mensagem é <b>copiada automaticamente</b>. Quando abrir o direct do @manoel.ink, é só <b>colar e enviar</b>.</p>
+      </form></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section faq" data-theme="paper">
+    <h2 class="title title-sm reveal">PERGUNTAS COMUNS</h2>
+    <details class="reveal"><summary>Qual o valor mínimo?</summary><p>O valor mínimo é <b>R$ 150</b>. O preço final depende do tamanho, do local do corpo e dos detalhes do desenho.</p></details>
+    <details class="reveal"><summary>Faz cobertura?</summary><p>Depende da complexidade do trabalho, mas geralmente sim. Manda uma foto da tatuagem atual no orçamento que ele avalia.</p></details>
+    <details class="reveal"><summary>Onde fica o studio?</summary>
+      <div class="faq-place">
+        <p><b>Alameda Heloísa Marinho de Gusmão Medeiros, 2</b><br>Petrópolis · Maceió/AL · CEP 57062-595<br>Atendimento só com hora marcada.</p>
+        <a class="btn btn-outline" href="https://www.google.com/maps/search/?api=1&query=Manoel%20ink%2C%20Alameda%20Helo%C3%ADsa%20Marinho%20de%20Gusm%C3%A3o%20Medeiros%2C%202%20-%20Petr%C3%B3polis%2C%20Macei%C3%B3%20-%20AL%2C%2057062-595" target="_blank" rel="noopener">Abrir no Google Maps ↗</a>
+        <iframe class="faq-map" title="Mapa do studio Manoel.ink" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Alameda%20Helo%C3%ADsa%20Marinho%20de%20Gusm%C3%A3o%20Medeiros%2C%202%20-%20Petr%C3%B3polis%2C%20Macei%C3%B3%20-%20AL%2C%2057062-595&z=16&output=embed"></iframe>
+      </div>
+    </details>
+  </section>
+
+  <!-- FOOTER -->
+  <!-- CTA FINAL -->
+  <section class="cta-big" data-theme="red">
+    <p class="kicker">Bora?</p>
+    <a href="#agendar" class="cta-link" data-cursor="Agendar">
+      <span class="cta-row"><span>SUA PRÓXIMA</span></span>
+      <span class="cta-row outline"><span>TATTOO COMEÇA AQUI</span></span>
+    </a>
+  </section>
+
+  <footer class="footer">
+    <a href="#top" class="footer-logo" id="footerLogo" aria-label="Manoel.ink — voltar ao topo">MANOEL<span>.</span>INK</a>
+    <div class="footer-links">
+      <a href="https://www.instagram.com/manoel.ink/" target="_blank" rel="noopener">Instagram @manoel.ink</a>
+      <a href="#" id="waFooter" class="only-wa" target="_blank" rel="noopener">WhatsApp</a>
+      <a href="https://ig.me/m/manoel.ink" class="only-ig" target="_blank" rel="noopener">Orçamentos pelo direct</a>
+      <a href="mailto:inkmanoel@gmail.com">inkmanoel@gmail.com</a>
+      <a href="https://www.google.com/maps/search/?api=1&query=Manoel%20ink%2C%20Alameda%20Helo%C3%ADsa%20Marinho%20de%20Gusm%C3%A3o%20Medeiros%2C%202%20-%20Petr%C3%B3polis%2C%20Macei%C3%B3%20-%20AL%2C%2057062-595" target="_blank" rel="noopener">Alameda Heloísa Marinho de Gusmão Medeiros, 2 · Petrópolis</a>
+      <p class="mono-label">Maceió · AL — Só com hora marcada</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLUTUANTE -->
+  <a class="wa-float" id="waFloat" href="#" target="_blank" rel="noopener" aria-label="Chamar o Manoel" data-cursor="Chamar">
+    <svg class="ico-ig" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg>
+    <svg class="ico-wa" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.4a.5.5 0 0 0 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6a2.6 2.6 0 0 0 1.7-1.2 2.1 2.1 0 0 0 .1-1.2c0-.1-.2-.2-.4-.3z"/></svg>
+    <span class="wa-tip"><span class="only-wa">Chama no WhatsApp</span><span class="only-ig">Chama no direct</span></span>
+  </a>
+
+  <!-- BARRA DE ORÇAMENTO (celular) -->
+  <div class="cta-bar" id="ctaBar">
+    <a href="#agendar" class="btn btn-red btn-cta">Pedir orçamento <span class="arr" aria-hidden="true">→</span></a>
+    <a href="https://ig.me/m/manoel.ink" class="cta-bar-ig" id="ctaBarIg" target="_blank" rel="noopener" aria-label="Abrir o direct do @manoel.ink">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path fill="currentColor" d="M12 2.2c3.2 0 3.6 0 4.8.1 3.3.1 4.8 1.7 4.9 4.9.1 1.3.1 1.6.1 4.8s0 3.6-.1 4.8c-.1 3.2-1.7 4.8-4.9 4.9-1.3.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-3.3-.1-4.8-1.7-4.9-4.9C2.2 15.6 2.2 15.2 2.2 12s0-3.6.1-4.8C2.4 3.9 3.9 2.4 7.2 2.3 8.4 2.2 8.8 2.2 12 2.2zM12 0C8.7 0 8.3 0 7.1.1 2.7.3.3 2.7.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.2 4.4 2.6 6.8 7 7 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c4.4-.2 6.8-2.6 7-7 .1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.2-4.4-2.6-6.8-7-7C15.7 0 15.3 0 12 0zm0 5.8a6.2 6.2 0 1 0 0 12.4 6.2 6.2 0 0 0 0-12.4zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.4-11.8a1.4 1.4 0 1 0 0 2.9 1.4 1.4 0 0 0 0-2.9z"/></svg>
+    </a>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Foto ampliada" hidden>
+    <button class="lb-close" id="lbClose" aria-label="Fechar">×</button>
+    <button class="lb-nav lb-prev" id="lbPrev" aria-label="Foto anterior">←</button>
+    <figure>
+      <div class="lb-img" id="lbImg"></div>
+      <figcaption><span id="lbTitle"></span><em id="lbCount"></em></figcaption>
+    </figure>
+    <button class="lb-nav lb-next" id="lbNext" aria-label="Próxima foto">→</button>
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="script.js?v=20261029f"></script>
+</body>
+</html>
